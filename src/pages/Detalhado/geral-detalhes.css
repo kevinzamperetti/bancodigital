@@ -1,0 +1,26 @@
+.info {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.info h1 {
+  font-size: 32px;
+}
+
+.info p {
+  color: #666;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.info p a { 
+  color: #069;
+}
+
+.agencia-digital {
+  color: #06069c;
+}

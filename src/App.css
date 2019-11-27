@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.fundo-azul {
+  background-color: #06069c;
+}
+
+.logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+.lista {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.lista article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.lista p {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.lista a, button {
+  height: 42px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #06069c;
+  background: #06069c;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista a:hover {
+  background: #fff;
+  color: #06069c;
+}
+
+.lista button:hover {
+  background: #fff;
+  color: #06069c;
+}
+
+.menu-principal {
+  width: 100%;
+  height: 50px;
+  background-color: #06069c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-principal a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.menu-principal a:hover {
+  background: #fff;
+  color: #06069c;
+}
+
+.login {
+  /* margin-bottom: 20px; */
+  width: 100%;
+  height: 50px;
+  background-color: #06069c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-login {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #06069c;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-login:hover {
+  border: 1px solid #06069c;
+  background: #fff;
+  color: #06069c;
+}
+
+.input-login {
+  width: 200px;
+  height: 22px;
+  margin-bottom: 10px;
+  border: solid 1px #06069c;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.div-login {
+  padding: 10px 0;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
